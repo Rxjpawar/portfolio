@@ -395,25 +395,27 @@ article .icon {
 /* PROJECTS SECTION */
 
 #projects {
-  
   position: relative;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  flex-direction: column;
+  height: 70vh;
 }
 
 .color-container {
   border-color: var(--container-border);
   background: var(--primary-color-2);
-  justify-content: center;
-  align-items: center;
-  
-  
+
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
 }
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
-  margin-left: 21px;
-  
+  max-width: 100%; /* Ensures image doesn't overflow */
+  max-height: 100%; /* Ensures image doesn't overflow */
+  object-fit: contain; /* Ensures the image fits inside the container */
 }
 
 .project-title {
