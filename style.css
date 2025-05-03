@@ -395,6 +395,7 @@ article .icon {
 /* PROJECTS SECTION */
 
 #projects {
+  
   position: relative;
 }
 
@@ -403,12 +404,16 @@ article .icon {
   background: var(--primary-color-2);
   justify-content: center;
   align-items: center;
+  
+  
 }
 
 .project-img {
   border-radius: 2rem;
   width: 90%;
   height: 90%;
+  margin-left: 21.5px;
+  
 }
 
 .project-title {
